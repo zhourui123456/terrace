@@ -1,0 +1,168 @@
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+<h3><span>用户管理</span></h3>
+<nav>
+    角色 <select ng-model="manages" ng-init="manages='13管理员aaa'">
+    <option ng-repeat="item in manage">{{item}}</option>
+</select>
+    状态 <select ng-model="statues" ng-init="statues='启用'">
+    <option ng-repeat="item in status" value="{{item}}">{{item}}</option>
+</select>
+    登录名 <input type="text" autofocus ng-model="logo">
+    <button ng-click="fil()">查询</button>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+<div class="right fl">
+<h3><span>用户管理</span></h3>
+<nav>
+
+    角色    <select name="" id="" ng-model="manages">
+    <option value="">全部</option>
+    <option ng-repeat="i in manage" value="{{i}}">{{i}}</option>
+</select>
+    状态    <select name="" ng-model="statues">
+    <option value="">全部</option>
+    <option ng-repeat="i in status" value="{{i}}">{{i}}</option>
+</select>
+    登录名  <input type="text" ng-model="roleName"/>
+    <button ng-click="searchFn()">查询</button>
+>>>>>>> 5.28
+>>>>>>> 528
+</nav>
+<main>
+    <h4>列表</h4>
+    <table class="table-container">
+        <thead>
+        <tr>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+            <td ng-repeat="i in fivedata">{{i.name}}</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in thirdata | filter: fit | filter: man | filter: stat | filter: logos">
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+            <td ng-repeat="i in fivedata">{{i}}</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in cutoutData">
+        <!--<tr ng-repeat="item in cutoutDatas | filter: fit | filter: man | filter: stat | filter: logos">-->
+>>>>>>> 5.28
+>>>>>>> 528
+            <td>{{item.ID}}</td>
+            <td>{{item.loginname}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.role}}</td>
+            <td>{{item.telephone}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.state}}</td>
+            <td>{{item.creattime}}</td>
+            <td>
+                <a ng-click="change(item.ID)">修改</a> |
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+                <a ng-click="delete(item.ID)">删除</a>
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+                <a ng-click="delete(item.ID)">删除</a>
+=======
+                <a ng-click="delete(item)">删除</a>
+>>>>>>> 5.28
+>>>>>>> 528
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <footer>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+        总共有{{thirdata.length}}条数据
+        <span class="prev" ng-click="prevs()">上一页</span>
+
+        <div class="page" >
+            <span ng-repeat="item in page" ng-click="pages($index)" ng-class='{"pink":pink==item}'>{{item}}</span>
+        </div>
+        <span class="next" ng-click="next()">下一页</span>
+
+        <div class="choose">
+            第<input type="text" ng-model="sum" ng-blur="blur()">页
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+        总共有{{allPage}}条数据
+        <!--<span class="prev" ng-click="updown('-')">上一页</span>-->
+
+        <div class="page">
+            <span  class="anniu1" ng-click="updownFn('-')">上一页</span>
+            <span class="annius" ng-class="{pink:(index+1)==1}" ng-click="changeIndexFn(1)">1</span>
+            <span class="annius" ng-show="showStatue1">...</span>
+            <span ng-repeat="i in pageArr" ng-show="self==i||self_1==i||i==self_2||i==self1||i==self2" class="annius" ng-class="{pink:(index+1)==i}" ng-click="changeIndexFn(i)">{{i}}</span>
+            <span  class="annius" ng-show="showStatue2">...</span>
+            <span class="annius" ng-class="{pink:(index+1)==allPage}" ng-click="changeIndexFn(allPage)">{{allPage}}</span>
+            <span  class="anniu1" ng-click="updownFn('+')">下一页</span>
+            第<input type="number" min="1" max="{{allPage}}" ng-change="changeInput(valueDATA)" ng-model="valueDATA" style="width:40px;"/>页
+>>>>>>> 5.28
+>>>>>>> 528
+        </div>
+    </footer>
+</main>
+<div class="change" ng-show=show>
+    <div class="title">
+        <span class="fr" ng-click="hide()">×</span>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+        <span ng-click="hide()">确认</span>
+    </div>
+    <div class="cons">
+        <div class="name">
+            <span ng-repeat="i in fivedata">{{i.name}}:</span>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+        <span ng-click="sures()">确认</span>
+    </div>
+    <div class="cons">
+        <div class="name">
+            <span ng-repeat="i in fivedata">{{i}}:</span>
+>>>>>>> 5.28
+>>>>>>> 528
+        </div>
+        <div class="input">
+            <span>
+                <input type="text" ng-value="tar.ID" readonly>
+                <input type="text" ng-model="tar.loginname">
+                <input type="text" ng-model="tar.name">
+                <input type="text" ng-model="tar.role">
+                <input type="text" ng-model="tar.telephone">
+                <input type="text" ng-model="tar.email">
+                <input type="text" ng-model="tar.state">
+                <input type="text" ng-model="tar.creattime">
+            </span>
+        </div>
+    </div>
+    <div class="btn">
+        <button ng-click="sures()">确定</button>
+        <button ng-click="hide()">取消</button>
+    </div>
+</div>
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+
+=======
+</div>
+>>>>>>> 5.28
+>>>>>>> 528
+

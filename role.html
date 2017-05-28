@@ -1,0 +1,38 @@
+<div id="role">
+    <h3>角色管理</h3>
+    <div class="change" ng-show=show>
+        <div class="title">
+            <span class="fr" ui-sref="user">×</span>
+            <span ui-sref="user" ng-click="win()">确认</span>
+        </div>
+        <div class="cons">
+            <div class="name">
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+                <span ng-repeat="i in fivedata">{{i.name}}:</span>
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+                <span ng-repeat="i in fivedata">{{i.name}}:</span>
+=======
+                <span ng-repeat="i in fivedata">{{i}}:</span>
+>>>>>>> 5.28
+>>>>>>> 528
+            </div>
+            <div class="input">
+            <span>
+                <input type="text" ng-model="tar.ID" readonly>
+                <input type="text" ng-model="tar.loginname">
+                <input type="text" ng-model="tar.name">
+                <input type="text" ng-model="tar.role">
+                <input type="text" ng-model="tar.telephone">
+                <input type="text" ng-model="tar.email">
+                <input type="text" ng-model="tar.state">
+                <input type="text" ng-model="tar.creattime">
+            </span>
+            </div>
+        </div>
+        <div class="btn">
+            <button ui-sref="user" ng-click="win()">确定</button>
+            <button ui-sref="user">取消</button>
+        </div>
+    </div>
+</div>

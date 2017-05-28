@@ -1,0 +1,25 @@
+<aside class="menuside fl">
+    <div id="mainMenu" class="left">
+        <div class="title"><b>&gt;</b>我的工作台</div>
+        <div class="jurisdic">
+            <dl>
+                <dt  ng-class="{fold:statueCon}" ng-click="statueConFn()">
+                    <h6><span>+</span>{{parentName}}</h6>
+                </dt>
+                <dd ng-hide="statueCon">
+                    <ol>
+                        <li ng-repeat="i in data">
+                            <a ui-sref="{{i.route}}({id:i.id})">
+                                <span>{{i.name}}</span>
+                            </a>
+                        </li>
+                    </ol>
+                </dd>
+            </dl>
+        </div>
+        <div class="clear"></div>
+    </div>
+</aside>
+<div ui-view>
+
+</div>

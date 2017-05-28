@@ -1,0 +1,18 @@
+<header class="header">
+    <div class="layout-header">
+        <div class="fl logo">
+            <div style="color:white;padding-left:20px">
+                <a style="color:white" href="#">通用权限系统</a>
+            </div>
+        </div>
+        <nav id="nav" class="fl main-nav" style="margin-left: 20px;">
+            <ul class="navlist" >
+                <li id="nav_@i" class="fl" ng-repeat="i in datas" style="padding-right: 10px;list-style: none">
+                    <a class="link" ui-sref="{{i.route}}({self:i})" >
+                        <span >{{i.name}}</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

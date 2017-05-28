@@ -1,0 +1,27 @@
+<div class="change" ng-show=amendSH>
+    <div class="title">
+        <span class="fr" ng-click="amendNo()">×</span>
+        <span ng-click="amendOk()">确认</span>
+    </div>
+    <div class="cons">
+        <div class="name">
+            <span ng-repeat="i in fivedata">{{i}}:</span>
+        </div>
+        <div class="input">
+            <span>
+                <input type="text" ng-value="tar.ID" readonly>
+                <input type="text" ng-model="tar.loginname">
+                <input type="text" ng-model="tar.name">
+                <input type="text" ng-model="tar.role">
+                <input type="text" ng-model="tar.telephone">
+                <input type="text" ng-model="tar.email">
+                <input type="text" ng-model="tar.state">
+                <input type="text" ng-model="tar.creattime">
+            </span>
+        </div>
+    </div>
+    <div class="btn">
+        <button ng-click="amendOk()">确定</button>
+        <button ng-click="amendNo()">取消</button>
+    </div>
+</div>

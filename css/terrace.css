@@ -1,0 +1,207 @@
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+.fl {
+  float: left; }
+
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+.fl {
+  float: left; }
+
+=======
+>>>>>>> 5.28
+>>>>>>> 528
+.header {
+  background: #32b5e5;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #94845c; }
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+  .header > div {
+    padding-left: 20px;
+    box-sizing: border-box; }
+
+.left {
+  width: 20%; }
+
+.right {
+  border-left: 1px solid #ccc;
+  box-sizing: border-box; }
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+
+.fl {
+  float: left; }
+
+.left {
+  width: 100%; }
+>>>>>>> 5.28
+>>>>>>> 528
+
+.content .left .title {
+  font-size: 14px;
+  color: #8dbb51;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  box-shadow: -2px 2px 2px 1px #eee; }
+  .content .left .title b {
+    margin-right: 5px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: #8dbb51; }
+.content .left .jurisdic h6 {
+  padding-left: 10px;
+  margin: 0;
+  line-height: 35px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc; }
+  .content .left .jurisdic h6 span {
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    color: #32b5e5;
+    border: 1px solid #32b5e5;
+    margin-right: 5px; }
+.content .left .jurisdic ol li {
+  padding-left: 20px;
+  line-height: 30px;
+  box-sizing: border-box; }
+.content .left .jurisdic ol .pitch {
+  color: #fff;
+  background: #32b5e5;
+  border-right: 3px solid #ff7e00; }
+.content .right {
+  padding-top: 26px;
+  padding-left: 15px;
+  width: 80%;
+  position: relative;
+  box-sizing: border-box; }
+  .content .right h3 {
+    font-size: 12px;
+    line-height: 35px;
+    border-bottom: 1px solid #eee; }
+    .content .right h3 span {
+      padding-bottom: 8px;
+      border-bottom: 3px solid #ff7e00; }
+  .content .right nav {
+    padding: 3px 0; }
+  .content .right main h4 {
+    background: #fbfbfb;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    text-indent: 5px;
+    color: #32b5e5; }
+  .content .right main table {
+    width: 100%; }
+    .content .right main table td {
+      padding: 0 5px;
+      height: 30px;
+      line-height: 30px; }
+    .content .right main table thead {
+      font-weight: bold; }
+.content footer {
+  padding: 10px 0; }
+  .content footer span {
+    border: 1px solid #000;
+    height: 20px;
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+>>>>>>> 528
+    display: inline-block; }
+  .content footer .page {
+    display: inline-block; }
+    .content footer .page span {
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      margin-right: 5px; }
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+=======
+=======
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 3px; }
+  .content footer span.anniu1 {
+    width: 48px; }
+>>>>>>> 5.28
+>>>>>>> 528
+  .content footer .choose {
+    display: inline-block;
+    margin: 0 20px; }
+    .content footer .choose input {
+      width: 40px;
+      height: 20px; }
+.content .change {
+  position: absolute;
+  width: 320px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+  margin-top: -200px;
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+  margin-top: -200px;
+=======
+  margin-top: -150px;
+>>>>>>> 5.28
+>>>>>>> 528
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 8px; }
+  .content .change .title {
+    padding: 5px;
+    border-bottom: 1px solid #000; }
+  .content .change .cons {
+    width: 95%; }
+    .content .change .cons .name {
+      width: 100px;
+      display: inline-block;
+      text-align: right;
+      padding-right: 10px;
+      float: left; }
+      .content .change .cons .name span {
+        display: block; }
+    .content .change .cons .input {
+      float: left;
+      width: 200px; }
+      .content .change .cons .input input {
+        height: 25px; }
+    .content .change .cons span {
+      display: inline-block;
+      height: 30px;
+      line-height: 30px; }
+
+.pink {
+  color: #fff;
+  background: red; }
+
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+#role .change {
+  margin-top: 70px; }
+
+=======
+<<<<<<< e1ebd22d9f2cee081726a00b4384250cf0698b28
+#role .change {
+  margin-top: 70px; }
+
+=======
+>>>>>>> 5.28
+>>>>>>> 528
+/*# sourceMappingURL=terrace.css.map */
